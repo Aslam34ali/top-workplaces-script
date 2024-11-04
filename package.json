@@ -1,0 +1,17 @@
+{
+  "name": "top-workplaces-script",
+  "version": "1.0.0",
+  "description": "A script to fetch and display the top 3 workplaces with the most shifts completed.",
+  "main": "src/scripts/top-workplaces.js",
+  "scripts": {
+    "start:topWorkplaces": "ts-node src/scripts/top-workplaces.ts"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "license": "ISC"
+}
